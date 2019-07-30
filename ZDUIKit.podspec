@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZDUIKit'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of ZDUIKit.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,75 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ZDUIKit/Classes/**/*'
+  # s.source_files = 'ZDUIKit/Classes/**/*'
+  s.source_files = 'ZDUIKit/Classes/ZDUIKit.h'
+
+s.subspec 'Base' do |ss|
+ss.source_files = 'ZDUIKit/Classes/Base/**/*'
+ss.dependency 'Masonry'
+ss.dependency 'ZDFoundation'
+ss.private_header_files = 'ZDUIKit/Classes/Base/ZDUIMethodSwizzling.h'
+end
+
+s.subspec 'Refresh' do |ss|
+ss.source_files = 'ZDUIKit/Classes/Refresh/**/*'
+ss.resources = 'ZDUIKit/Assets/Refresh.xcassets'
+ss.dependency 'MJRefresh'
+ss.dependency 'ZDUIKit/Base'
+end
+
+s.subspec 'Banner' do |ss|
+ss.source_files = 'ZDUIKit/Classes/Banner/**/*'
+end
+
+s.subspec 'Alert' do |ss|
+ss.source_files = 'ZDUIKit/Classes/Alert/**/*'
+end
+
+s.subspec 'Margin' do |ss|
+ss.source_files = 'ZDUIKit/Classes/Margin/**/*'
+end
+
+s.subspec 'GradientView' do |ss|
+ss.source_files = 'ZDUIKit/Classes/GradientView/**/*'
+end
+s.subspec 'PromptBtn' do |ss|
+ss.source_files = 'ZDUIKit/Classes/PromptBtn/**/*'
+ss.dependency 'ZDUIKit/Margin'
+ss.dependency 'ZDUIKit/Base'
+end
+
+s.subspec 'Toast' do |ss|
+ss.source_files = 'ZDUIKit/Classes/Toast/**/*'
+ss.dependency 'MBProgressHUD'
+ss.dependency 'ZDUIKit/Base'
+ss.dependency 'ZDUIKit/SimButton'
+ss.resources = 'ZDUIKit/Assets/Toast.xcassets'
+end
+
+s.subspec 'SimButton' do |ss|
+ss.source_files = 'ZDUIKit/Classes/SimButton/**/*'
+end
+s.subspec 'Navigator' do |ss|
+ss.source_files = 'ZDUIKit/Classes/Navigator/**/*'
+end
+s.subspec 'Tabbar' do |ss|
+ss.source_files = 'ZDUIKit/Classes/Tabbar/**/*'
+ss.dependency 'ZDUIKit/Base'
+end
+
+s.subspec 'Menu' do |ss|
+ss.source_files = 'ZDUIKit/Classes/Menu/**/*'
+ss.dependency 'ZDUIKit/Base'
+ss.dependency 'Masonry'
+end
+s.subspec 'ScrollTable' do |ss|
+ss.source_files = 'ZDUIKit/Classes/ScrollTable/**/*'
+ss.dependency 'ZDUIKit/Base'
+ss.dependency 'ZDUIKit/Tabbar'
+ss.dependency 'ZDUIKit/Banner'
+ss.dependency 'Masonry'
+end
   
   # s.resource_bundles = {
   #   'ZDUIKit' => ['ZDUIKit/Assets/*.png']

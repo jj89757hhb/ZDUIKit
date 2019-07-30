@@ -1,0 +1,79 @@
+PODS:
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.1.15.7)
+  - ReactiveObjC (3.1.0)
+  - ZDFoundation (0.0.4)
+  - ZDUIKit (0.0.1):
+    - ZDUIKit/Alert (= 0.0.1)
+    - ZDUIKit/Banner (= 0.0.1)
+    - ZDUIKit/Base (= 0.0.1)
+    - ZDUIKit/GradientView (= 0.0.1)
+    - ZDUIKit/Margin (= 0.0.1)
+    - ZDUIKit/Menu (= 0.0.1)
+    - ZDUIKit/Navigator (= 0.0.1)
+    - ZDUIKit/PromptBtn (= 0.0.1)
+    - ZDUIKit/Refresh (= 0.0.1)
+    - ZDUIKit/ScrollTable (= 0.0.1)
+    - ZDUIKit/SimButton (= 0.0.1)
+    - ZDUIKit/Tabbar (= 0.0.1)
+    - ZDUIKit/Toast (= 0.0.1)
+  - ZDUIKit/Alert (0.0.1)
+  - ZDUIKit/Banner (0.0.1)
+  - ZDUIKit/Base (0.0.1):
+    - Masonry
+    - ZDFoundation
+  - ZDUIKit/GradientView (0.0.1)
+  - ZDUIKit/Margin (0.0.1)
+  - ZDUIKit/Menu (0.0.1):
+    - Masonry
+    - ZDUIKit/Base
+  - ZDUIKit/Navigator (0.0.1)
+  - ZDUIKit/PromptBtn (0.0.1):
+    - ZDUIKit/Base
+    - ZDUIKit/Margin
+  - ZDUIKit/Refresh (0.0.1):
+    - MJRefresh
+    - ZDUIKit/Base
+  - ZDUIKit/ScrollTable (0.0.1):
+    - Masonry
+    - ZDUIKit/Banner
+    - ZDUIKit/Base
+    - ZDUIKit/Tabbar
+  - ZDUIKit/SimButton (0.0.1)
+  - ZDUIKit/Tabbar (0.0.1):
+    - ZDUIKit/Base
+  - ZDUIKit/Toast (0.0.1):
+    - MBProgressHUD
+    - ZDUIKit/Base
+    - ZDUIKit/SimButton
+
+DEPENDENCIES:
+  - Masonry
+  - ReactiveObjC
+  - ZDUIKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - ReactiveObjC
+  https://github.com/jj89757hhb/ZD_Repo.git:
+    - ZDFoundation
+
+EXTERNAL SOURCES:
+  ZDUIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  ZDFoundation: 085d9d6290ac816b666a066ce516401525c04e71
+  ZDUIKit: 7d7baefda9b2db9786ca7e2ef101d5ed6b8edc30
+
+PODFILE CHECKSUM: cf8b86236d08d93279f0b7a4aba134fa71a413ce
+
+COCOAPODS: 1.6.0

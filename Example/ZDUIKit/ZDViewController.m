@@ -7,7 +7,8 @@
 //
 
 #import "ZDViewController.h"
-
+//#import <ZDUIKit.h>
+#import <ZDUIKit.h>
 @interface ZDViewController ()
 
 @end
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [ZDToast showSuccess:@"成功" inView:self.view];
+    
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,0 +1,141 @@
+{
+  "name": "ZDUIKit",
+  "version": "0.0.1",
+  "summary": "A short description of ZDUIKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jj89757hhb/ZDUIKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jj89757hhb": "jj89757hhb.happy@163.com"
+  },
+  "source": {
+    "git": "https://github.com/jj89757hhb/ZDUIKit.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZDUIKit/Classes/ZDUIKit.h",
+  "subspecs": [
+    {
+      "name": "Base",
+      "source_files": "ZDUIKit/Classes/Base/**/*",
+      "dependencies": {
+        "Masonry": [
+
+        ],
+        "ZDFoundation": [
+
+        ]
+      },
+      "private_header_files": "ZDUIKit/Classes/Base/ZDUIMethodSwizzling.h"
+    },
+    {
+      "name": "Refresh",
+      "source_files": "ZDUIKit/Classes/Refresh/**/*",
+      "resources": "ZDUIKit/Assets/Refresh.xcassets",
+      "dependencies": {
+        "MJRefresh": [
+
+        ],
+        "ZDUIKit/Base": [
+
+        ]
+      }
+    },
+    {
+      "name": "Banner",
+      "source_files": "ZDUIKit/Classes/Banner/**/*"
+    },
+    {
+      "name": "Alert",
+      "source_files": "ZDUIKit/Classes/Alert/**/*"
+    },
+    {
+      "name": "Margin",
+      "source_files": "ZDUIKit/Classes/Margin/**/*"
+    },
+    {
+      "name": "GradientView",
+      "source_files": "ZDUIKit/Classes/GradientView/**/*"
+    },
+    {
+      "name": "PromptBtn",
+      "source_files": "ZDUIKit/Classes/PromptBtn/**/*",
+      "dependencies": {
+        "ZDUIKit/Margin": [
+
+        ],
+        "ZDUIKit/Base": [
+
+        ]
+      }
+    },
+    {
+      "name": "Toast",
+      "source_files": "ZDUIKit/Classes/Toast/**/*",
+      "dependencies": {
+        "MBProgressHUD": [
+
+        ],
+        "ZDUIKit/Base": [
+
+        ],
+        "ZDUIKit/SimButton": [
+
+        ]
+      },
+      "resources": "ZDUIKit/Assets/Toast.xcassets"
+    },
+    {
+      "name": "SimButton",
+      "source_files": "ZDUIKit/Classes/SimButton/**/*"
+    },
+    {
+      "name": "Navigator",
+      "source_files": "ZDUIKit/Classes/Navigator/**/*"
+    },
+    {
+      "name": "Tabbar",
+      "source_files": "ZDUIKit/Classes/Tabbar/**/*",
+      "dependencies": {
+        "ZDUIKit/Base": [
+
+        ]
+      }
+    },
+    {
+      "name": "Menu",
+      "source_files": "ZDUIKit/Classes/Menu/**/*",
+      "dependencies": {
+        "ZDUIKit/Base": [
+
+        ],
+        "Masonry": [
+
+        ]
+      }
+    },
+    {
+      "name": "ScrollTable",
+      "source_files": "ZDUIKit/Classes/ScrollTable/**/*",
+      "dependencies": {
+        "ZDUIKit/Base": [
+
+        ],
+        "ZDUIKit/Tabbar": [
+
+        ],
+        "ZDUIKit/Banner": [
+
+        ],
+        "Masonry": [
+
+        ]
+      }
+    }
+  ]
+}

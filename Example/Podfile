@@ -1,10 +1,13 @@
+source 'https://github.com/jj89757hhb/ZD_Repo.git'
+source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 platform :ios, '8.0'
 
 target 'ZDUIKit_Example' do
   pod 'ZDUIKit', :path => '../'
-
+  pod 'Masonry'
+  pod 'ReactiveObjC'
   target 'ZDUIKit_Tests' do
     inherit! :search_paths
 
