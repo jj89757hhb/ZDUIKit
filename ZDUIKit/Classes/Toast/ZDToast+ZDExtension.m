@@ -53,7 +53,7 @@
     simBtn.iconPosition = ZDSimButtonIconPositionTypeLeft;
     simBtn.iconTextMargin = 7;
     [simBtn setTitle:string forState:UIControlStateNormal];
-    [simBtn setImage:[ZDUIAssets imageName:@"ZDToastSuccess"] forState:UIControlStateNormal];
+    [simBtn setImage:[ZDUIAssets imageName:@"XTToastSuccess"] forState:UIControlStateNormal];
     [simBtn setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
     simBtn.titleLabel.font = [ZDUIAssets PFMediumFont:15];
     return simBtn;

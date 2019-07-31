@@ -55,7 +55,7 @@ static ZDToastErrorHandler globalErrorHandler = nil;
     ZDToast *toast = [ZDToast showHUDAddedTo:view animated:YES];
     toast.mode = MBProgressHUDModeCustomView;
     toast.square = YES;
-    toast.customView = [[UIImageView alloc] initWithImage:[ZDUIAssets imageName:@"ZDToastSuccess"]];
+    toast.customView = [[UIImageView alloc] initWithImage:[ZDUIAssets imageName:@"XTToastSuccess"]];
     toast.detailsLabel.text = success ?: @"";
     [toast hideAnimated:YES afterDelay:[self durationForDisplayString:success ?: @""]];
     return toast;
@@ -155,7 +155,7 @@ static ZDToastErrorHandler globalErrorHandler = nil;
     ZDToastImageView *imageView = [[ZDToastImageView alloc] initWithFrame:CGRectMake(0, 0, 50, 50)];
     NSMutableArray *images = [NSMutableArray array];
     for (NSInteger i = 1; i <= 46; i++) {
-        [images addObject:[ZDUIAssets imageName:[NSString stringWithFormat:@"ZDLoading%02ld", i]]];
+        [images addObject:[ZDUIAssets imageName:[NSString stringWithFormat:@"XTLoading%02ld", i]]];
     }
     imageView.animationImages = images;
     imageView.contentMode = UIViewContentModeScaleAspectFill;

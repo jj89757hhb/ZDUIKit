@@ -77,20 +77,20 @@
 
     // 设置普通状态的动画图片
     NSMutableArray *idleImages = [NSMutableArray array];
-    UIImage *image = [ZDUIAssets imageName:@"ZDRefresh01"];
+    UIImage *image = [ZDUIAssets imageName:@"XTRefresh01"];
     [idleImages addObject:image];
     [self setImages:idleImages forState:MJRefreshStateIdle];
     
     // 设置即将刷新状态的动画图片（一松开就会刷新的状态）
     NSMutableArray *willRefreshImages = [NSMutableArray array];
-    UIImage *image1 = [ZDUIAssets imageName:@"ZDRefresh01"];
+    UIImage *image1 = [ZDUIAssets imageName:@"XTRefresh01"];
     [willRefreshImages addObject:image1];
     [self setImages:willRefreshImages forState:MJRefreshStatePulling];
     
     
     NSMutableArray *refreshingingImages = [NSMutableArray array];
     for (NSUInteger i = 1; i<=9; i++) {
-        UIImage *image = [ZDUIAssets imageName:[NSString stringWithFormat:@"ZDRefresh0%zd", i]];
+        UIImage *image = [ZDUIAssets imageName:[NSString stringWithFormat:@"XTRefresh0%zd", i]];
         [refreshingingImages addObject:image];
     }
     // 设置正在刷新状态的动画图片
@@ -113,7 +113,7 @@
         }
     } else if (state == MJRefreshStateIdle) {
         [self.gifView stopAnimating];
-        self.gifView.image = [ZDUIAssets imageName:@"ZDRefresh10"];
+        self.gifView.image = [ZDUIAssets imageName:@"XTRefresh10"];
     }
 }
 @end
