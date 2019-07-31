@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZDUIKit'
-  s.version          = '0.0.6'
+  s.version          = '0.0.7'
   s.summary          = 'A short description of ZDUIKit.'
 
 # This description is used to generate tags and improve search results.
@@ -32,6 +32,7 @@ TODO: Add long description of the pod here.
 
   # s.source_files = 'ZDUIKit/Classes/**/*'
   s.source_files = 'ZDUIKit/Classes/ZDUIKit.h'
+  s.resource = 'ZDUIKit/Assets'
 
 s.subspec 'Base' do |ss|
 ss.source_files = 'ZDUIKit/Classes/Base/**/*'
@@ -42,7 +43,7 @@ end
 
 s.subspec 'Refresh' do |ss|
 ss.source_files = 'ZDUIKit/Classes/Refresh/**/*'
-ss.resources = 'ZDUIKit/Assets/Refresh.xcassets'
+#ss.resources = 'ZDUIKit/Assets/Refresh.xcassets'
 ss.dependency 'MJRefresh'
 ss.dependency 'ZDUIKit/Base'
 end
@@ -73,7 +74,7 @@ ss.source_files = 'ZDUIKit/Classes/Toast/**/*'
 ss.dependency 'MBProgressHUD'
 ss.dependency 'ZDUIKit/Base'
 ss.dependency 'ZDUIKit/SimButton'
-ss.resources = 'ZDUIKit/Assets/Toast.xcassets'
+#ss.resources = 'ZDUIKit/Assets/Toast.xcassets'
 end
 
 s.subspec 'SimButton' do |ss|
