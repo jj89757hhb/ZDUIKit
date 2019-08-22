@@ -127,7 +127,6 @@
 		45C1C14B97BF58EA9107AE6173FE0E73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F9F12597B0DCBAA7473D8AE6B7A00 /* Foundation.framework */; };
 		46F35F7C5C943232B9506383E638BBCD /* RACDynamicSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = B04ED62FE9A069AF6ECD9CF97D022205 /* RACDynamicSignal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A099C7718F83D640DE47549C6E93754 /* RACTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8920A31FF1A0DD5F60F4FBF1FE3943 /* RACTuple.m */; };
-		4A1EDBE3D5145D297160D7B5FD0B8322 /* ZDBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D23BD82D59B4D2B7ACC2196F67EAB42 /* ZDBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A9360F5C563C1AB81C0F4F315AC1728 /* ZDToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 286F92E736DE323020D9153502581BF0 /* ZDToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C09864F3ABA9A1F70D41B34C2CEBD7E /* ZDUIAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = E26B33F049B4A101BAB61E251C70FDDC /* ZDUIAssets.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C20AFD00C3E2C2A528C8F363B4BB072 /* NSOrderedSet+RACSequenceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA4C4831D809A18F51ED245CDE5268D /* NSOrderedSet+RACSequenceAdditions.m */; };
@@ -208,7 +207,6 @@
 		72C4B3BB857166346E0DB7E5C2D9D6DE /* NSDictionary+RACSequenceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 80FAB7EF1312594D312F26480F3473EE /* NSDictionary+RACSequenceAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73007E18C32A07F0B58AB0DFE10E98BF /* ZDTableSection.h in Headers */ = {isa = PBXBuildFile; fileRef = F385DE2A8717C62A8547B9873A0F4BE7 /* ZDTableSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73300003438DC542B9D0546D73877707 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 717985B3F2458F748E95143EDBCF1ADA /* MASViewConstraint.m */; };
-		734573C4059D6BB49A3D432C6A8DF7F4 /* ZDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3628130457CF1A2EBCF049BA5C13824 /* ZDBaseViewController.m */; };
 		7390990ADCBF9AB82DCEC400A01D6F4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F9F12597B0DCBAA7473D8AE6B7A00 /* Foundation.framework */; };
 		73FD93FACA51C4671B26C7A0B24ED1D5 /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F8307C4122439C27C65E699EC936AB /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74C46D711B611B68E055A3BCC76D52A5 /* RACSignalSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B8CE67755FCE2C619406C0F9443CDDD /* RACSignalSequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -605,7 +603,7 @@
 		2ABFA57C8F6C775B5A60421230536A03 /* Pods-ZDUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2B6B24D256443AB3DF928005C11B0FC0 /* UISlider+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISlider+RACSignalSupport.h"; path = "ReactiveObjC/UISlider+RACSignalSupport.h"; sourceTree = "<group>"; };
 		2BBB0CBC4D15023D22B4C049C5F475A1 /* UIRefreshControl+RACCommandSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+RACCommandSupport.m"; path = "ReactiveObjC/UIRefreshControl+RACCommandSupport.m"; sourceTree = "<group>"; };
-		2C415E64A2ADABD21E290308D7114299 /* RACCompoundDisposableProvider.d */ = {isa = PBXFileReference; includeInIndex = 1; name = RACCompoundDisposableProvider.d; path = ReactiveObjC/RACCompoundDisposableProvider.d; sourceTree = "<group>"; };
+		2C415E64A2ADABD21E290308D7114299 /* RACCompoundDisposableProvider.d */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.dtrace; name = RACCompoundDisposableProvider.d; path = ReactiveObjC/RACCompoundDisposableProvider.d; sourceTree = "<group>"; };
 		2C8FC92E3573CF2C07941C83C1633462 /* ZDDataStack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZDDataStack.m; path = ZDFoundation/Classes/ZDUtils/DataStructure/ZDDataStack.m; sourceTree = "<group>"; };
 		2CBDB2DFDF68093BBC9371E2B07EA4AD /* NSNotificationCenter+ZDExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+ZDExtend.m"; path = "ZDFoundation/Classes/ZDCategory/NSNotificationCenter/NSNotificationCenter+ZDExtend.m"; sourceTree = "<group>"; };
 		2D10A411621C600D5ACF145A6D294C2B /* ZDToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZDToast.m; path = ZDUIKit/Classes/Toast/ZDToast.m; sourceTree = "<group>"; };
@@ -621,7 +619,7 @@
 		2FB7F64CDEBB6C482E7432013A851EE0 /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefresh/Base/MJRefreshHeader.m; sourceTree = "<group>"; };
 		300A7723CE82543F7572477358EE00C9 /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackGifFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
 		303DC360658AD60B8364143AF47D7E3C /* RACTupleSequence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACTupleSequence.m; path = ReactiveObjC/RACTupleSequence.m; sourceTree = "<group>"; };
-		307A35B940939544A72A211DE5711073 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		307A35B940939544A72A211DE5711073 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30EE387FE59C8A413E31E5F141958EF6 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		312F4569EEE5BE732BD78272FCB08C6C /* RACUnarySequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACUnarySequence.h; path = ReactiveObjC/RACUnarySequence.h; sourceTree = "<group>"; };
 		337889279F22815E46B678B6CB6CE6AE /* NSInvocation+RACTypeParsing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+RACTypeParsing.m"; path = "ReactiveObjC/NSInvocation+RACTypeParsing.m"; sourceTree = "<group>"; };
@@ -634,9 +632,9 @@
 		37668DC8B0A846DF719F4DBD08B332BA /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
 		383BA64F58BE7461077D72BF877DEB51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		386C9A529F540FC8890D7EE8B85FC09A /* RACSignal+Operations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RACSignal+Operations.h"; path = "ReactiveObjC/RACSignal+Operations.h"; sourceTree = "<group>"; };
-		386EF9BE77C4371A0021A1E2A5F2B130 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		386EF9BE77C4371A0021A1E2A5F2B130 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		38B9F36A69F87B5EAB5AB2D83013F1D7 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
-		391956B7B82AEA7BE01DF0B26809BE24 /* RACSignalProvider.d */ = {isa = PBXFileReference; includeInIndex = 1; name = RACSignalProvider.d; path = ReactiveObjC/RACSignalProvider.d; sourceTree = "<group>"; };
+		391956B7B82AEA7BE01DF0B26809BE24 /* RACSignalProvider.d */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.dtrace; name = RACSignalProvider.d; path = ReactiveObjC/RACSignalProvider.d; sourceTree = "<group>"; };
 		39C4EB54656F2EB2784DBEA2AC9B9A47 /* RACValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACValueTransformer.m; path = ReactiveObjC/RACValueTransformer.m; sourceTree = "<group>"; };
 		3AF3EAEEB829B47E247E6A37DCE7A32A /* NSString+RACSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+RACSupport.m"; path = "ReactiveObjC/NSString+RACSupport.m"; sourceTree = "<group>"; };
 		3B06AF63CFD17C565FA08C7E5B384E64 /* NSOrderedSet+RACSequenceAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSOrderedSet+RACSequenceAdditions.h"; path = "ReactiveObjC/NSOrderedSet+RACSequenceAdditions.h"; sourceTree = "<group>"; };
@@ -672,7 +670,7 @@
 		4BE3D534038307BF5B85744D2883C8F8 /* Pods-ZDUIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZDUIKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		4BFE2BC1F0E6FDED3A48792BA414366D /* ZDFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZDFoundation.modulemap; sourceTree = "<group>"; };
 		4C99A80158017FBEB3BBED911B17485C /* UIDatePicker+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDatePicker+RACSignalSupport.m"; path = "ReactiveObjC/UIDatePicker+RACSignalSupport.m"; sourceTree = "<group>"; };
-		4CB0485202973D585D7EA47BB2E695C0 /* Pods_ZDUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZDUIKit_Tests.framework; path = "Pods-ZDUIKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB0485202973D585D7EA47BB2E695C0 /* Pods_ZDUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZDUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DDD7DDEEAC1ABA4BBA95C07CEEFB22D /* RACIndexSetSequence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACIndexSetSequence.m; path = ReactiveObjC/RACIndexSetSequence.m; sourceTree = "<group>"; };
 		4DE7C2D8DD2370B690F6A2BB2209F4AB /* RACKVOProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACKVOProxy.h; path = ReactiveObjC/RACKVOProxy.h; sourceTree = "<group>"; };
 		4FC0B371D44A02DAC1CAD302E64EA1A5 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
@@ -703,12 +701,12 @@
 		6035753653E3A4CC67353AA30F6CF1A5 /* NSObject+ZDNotify.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ZDNotify.m"; path = "ZDFoundation/Classes/ZDCategory/NSObject/NSObject+ZDNotify.m"; sourceTree = "<group>"; };
 		6052C988C3D2258273B49FDBD60A7283 /* UIControl+ZDBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+ZDBlock.h"; path = "ZDFoundation/Classes/ZDCategory/UIControl/UIControl+ZDBlock.h"; sourceTree = "<group>"; };
 		62A79667F77846FCD873F976CD997121 /* ZDPromptBtn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZDPromptBtn.h; path = ZDUIKit/Classes/PromptBtn/ZDPromptBtn.h; sourceTree = "<group>"; };
-		62ADA77FB15FF9FE2DEDDA0D4C222909 /* ZDUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZDUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		62ADA77FB15FF9FE2DEDDA0D4C222909 /* ZDUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZDUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		62BE2D86DD9533C3C1120F962F190526 /* RACCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACCommand.m; path = ReactiveObjC/RACCommand.m; sourceTree = "<group>"; };
 		6373F7B10117B9980499112D2048F758 /* UIButton+RACCommandSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+RACCommandSupport.m"; path = "ReactiveObjC/UIButton+RACCommandSupport.m"; sourceTree = "<group>"; };
 		641F8A0D64A7AE0D082ADE24A3ACD169 /* ZDMultipleProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZDMultipleProxy.h; path = ZDFoundation/Classes/ZDUtils/WeakProxy/ZDMultipleProxy.h; sourceTree = "<group>"; };
 		64C1C82437BCA13AF46A49845F3762FE /* RACStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACStream.h; path = ReactiveObjC/RACStream.h; sourceTree = "<group>"; };
-		6644C30DB74F5AC2F33C45E3EDBA62B4 /* ReactiveObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReactiveObjC.framework; path = ReactiveObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6644C30DB74F5AC2F33C45E3EDBA62B4 /* ReactiveObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		665BB4F732B3527C781D90FFE4AC57D9 /* ZDScrollTableVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZDScrollTableVC.h; path = ZDUIKit/Classes/ScrollTable/ZDScrollTableVC.h; sourceTree = "<group>"; };
 		66DD852A41AA10DA5955F6367BF7F889 /* Pods-ZDUIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZDUIKit_Example.modulemap"; sourceTree = "<group>"; };
 		672A3248E08F3024983E3584BB9360F3 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
@@ -755,13 +753,12 @@
 		79DB9EB0D642A4D9F749078CE288E607 /* RACScheduler+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RACScheduler+Private.h"; path = "ReactiveObjC/RACScheduler+Private.h"; sourceTree = "<group>"; };
 		7A55DDB238C043B53A4AFBAB3195FDF1 /* ReactiveObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReactiveObjC.modulemap; sourceTree = "<group>"; };
 		7A593D8A7BA5ED0D547C8C4A7F13B5D2 /* UIControl+RACSignalSupportPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+RACSignalSupportPrivate.h"; path = "ReactiveObjC/UIControl+RACSignalSupportPrivate.h"; sourceTree = "<group>"; };
-		7B191445629D0D310086CC1B6A740D8B /* Assets */ = {isa = PBXFileReference; includeInIndex = 1; name = Assets; path = ZDUIKit/Assets; sourceTree = "<group>"; };
+		7B191445629D0D310086CC1B6A740D8B /* Assets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = Assets; path = ZDUIKit/Assets; sourceTree = "<group>"; };
 		7B6C74425D10A35D6F3B5B995E6CF57D /* ZDNavigator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZDNavigator.m; path = ZDUIKit/Classes/Navigator/ZDNavigator.m; sourceTree = "<group>"; };
 		7BA57B2EB7F290E98A6106C286AE3B9B /* RACUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACUnit.h; path = ReactiveObjC/RACUnit.h; sourceTree = "<group>"; };
 		7BB96F4DAD1A69B7A5F3C3E9CD3905BE /* NSObject+RACKVOWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+RACKVOWrapper.m"; path = "ReactiveObjC/NSObject+RACKVOWrapper.m"; sourceTree = "<group>"; };
 		7BF7363DE87EFB61A21037FB14F425B2 /* NSString+RACKeyPathUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+RACKeyPathUtilities.m"; path = "ReactiveObjC/NSString+RACKeyPathUtilities.m"; sourceTree = "<group>"; };
 		7D103C2893658ADF137E95C50932D237 /* ZDPopupMenuVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZDPopupMenuVC.m; path = ZDUIKit/Classes/Menu/ZDPopupMenuVC.m; sourceTree = "<group>"; };
-		7D23BD82D59B4D2B7ACC2196F67EAB42 /* ZDBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZDBaseViewController.h; path = ZDUIKit/Classes/Base/ZDBaseViewController.h; sourceTree = "<group>"; };
 		8079907283AC3D2E6E712D15F172BCC0 /* RACEXTKeyPathCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACEXTKeyPathCoding.h; path = ReactiveObjC/extobjc/RACEXTKeyPathCoding.h; sourceTree = "<group>"; };
 		80DA6A17E31365D29B658596F89E699E /* NSObject+RACSelectorSignal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+RACSelectorSignal.m"; path = "ReactiveObjC/NSObject+RACSelectorSignal.m"; sourceTree = "<group>"; };
 		80F73BE66C9A687A81E80057A8D1E471 /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
@@ -816,7 +813,7 @@
 		98674E589938D6F78A6A25EA515EC87D /* ZDThreadSafeArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZDThreadSafeArray.m; path = ZDFoundation/Classes/ZDUtils/ThreadSafeArray/ZDThreadSafeArray.m; sourceTree = "<group>"; };
 		990224812344D29B957D1A7A0E4162FE /* UIImagePickerController+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImagePickerController+RACSignalSupport.m"; path = "ReactiveObjC/UIImagePickerController+RACSignalSupport.m"; sourceTree = "<group>"; };
 		99045DDA0C085C367E3556B2897EC119 /* ZDThreadSafeArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZDThreadSafeArray.h; path = ZDFoundation/Classes/ZDUtils/ThreadSafeArray/ZDThreadSafeArray.h; sourceTree = "<group>"; };
-		9A78A5CEAF0A7A613C131CAA456D1DFB /* ZDUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZDUIKit.framework; path = ZDUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A78A5CEAF0A7A613C131CAA456D1DFB /* ZDUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZDUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8262B1A531C84DFF210D26DCD310E9 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		9AD51F3E8A0FF2778E499A7A0A82F2C2 /* RACTargetQueueScheduler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACTargetQueueScheduler.m; path = ReactiveObjC/RACTargetQueueScheduler.m; sourceTree = "<group>"; };
 		9B3DD0ACCB19B2D7E6F53AF3C6EC091D /* RACSerialDisposable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACSerialDisposable.m; path = ReactiveObjC/RACSerialDisposable.m; sourceTree = "<group>"; };
@@ -824,7 +821,7 @@
 		9BF06E6A79CD1958ACF062A331AA847B /* RACmetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACmetamacros.h; path = ReactiveObjC/extobjc/RACmetamacros.h; sourceTree = "<group>"; };
 		9CFB2F063F02952363245DCA1C140C20 /* ZDGradientButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZDGradientButton.m; path = ZDUIKit/Classes/GradientView/ZDGradientButton.m; sourceTree = "<group>"; };
 		9D7A48074EFFDD5AC7E895EA1A501BE5 /* RACReturnSignal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACReturnSignal.h; path = ReactiveObjC/RACReturnSignal.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DF91091D2EB9E4E67B920180BE50048 /* Pods-ZDUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZDUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9E29D7F34FDBB88993191C17DEC74EA2 /* ZDAlertMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZDAlertMaker.m; path = ZDUIKit/Classes/Alert/ZDAlertMaker.m; sourceTree = "<group>"; };
 		9E835CFE03AD5CB7134625DFEA88B17D /* UIGestureRecognizer+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+RACSignalSupport.h"; path = "ReactiveObjC/UIGestureRecognizer+RACSignalSupport.h"; sourceTree = "<group>"; };
@@ -856,7 +853,6 @@
 		B14CB91B6B06140EFD6DF32C964F9900 /* RACStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACStream.m; path = ReactiveObjC/RACStream.m; sourceTree = "<group>"; };
 		B174F3E0D4A98288D701171F60EC8062 /* ZDFoundationMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZDFoundationMacro.h; path = ZDFoundation/Classes/ZDDefine/ZDFoundationMacro.h; sourceTree = "<group>"; };
 		B21004D5427E6A4AF2CB61B19EDFC483 /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalHeader.m; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.m; sourceTree = "<group>"; };
-		B3628130457CF1A2EBCF049BA5C13824 /* ZDBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZDBaseViewController.m; path = ZDUIKit/Classes/Base/ZDBaseViewController.m; sourceTree = "<group>"; };
 		B3828B8B399BCFA1A6F85F4E3FF7DD59 /* ZDGradientButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZDGradientButton.h; path = ZDUIKit/Classes/GradientView/ZDGradientButton.h; sourceTree = "<group>"; };
 		B39119033830C4012B74958A9008EC3F /* UIGestureRecognizer+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+RACSignalSupport.m"; path = "ReactiveObjC/UIGestureRecognizer+RACSignalSupport.m"; sourceTree = "<group>"; };
 		B3DB036727ACC243124438206D11F0C7 /* UIView+ZDLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ZDLayout.m"; path = "ZDFoundation/Classes/ZDCategory/UIView/UIView+ZDLayout.m"; sourceTree = "<group>"; };
@@ -878,7 +874,7 @@
 		BCED8D15C88850F48096A63D97030816 /* RACCompoundDisposable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACCompoundDisposable.m; path = ReactiveObjC/RACCompoundDisposable.m; sourceTree = "<group>"; };
 		BD4A8B8101D8B2D26809111DD74451B8 /* ZDTabItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZDTabItem.m; path = ZDUIKit/Classes/Tabbar/ZDTabItem.m; sourceTree = "<group>"; };
 		BD6E5F1B3A75C136D17F5374330C4627 /* ZDMultipleProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZDMultipleProxy.m; path = ZDFoundation/Classes/ZDUtils/WeakProxy/ZDMultipleProxy.m; sourceTree = "<group>"; };
-		BDAA5F363DF3FB70EAA415F273923212 /* ZDFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZDFoundation.framework; path = ZDFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAA5F363DF3FB70EAA415F273923212 /* ZDFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZDFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD0437AFDA0724ED175FDA7C49B45E3 /* UIView+ZDLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ZDLayout.h"; path = "ZDFoundation/Classes/ZDCategory/UIView/UIView+ZDLayout.h"; sourceTree = "<group>"; };
 		BE7DAE7F8310801F639FA04D865075EC /* ZDBaseNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZDBaseNavigationController.m; path = ZDUIKit/Classes/Base/ZDBaseNavigationController.m; sourceTree = "<group>"; };
 		C00229B0E756F5A7376B997B94406B9E /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
@@ -930,7 +926,7 @@
 		D4284431AE30345D4258D99EACDA4722 /* ZDWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZDWeakProxy.m; path = ZDFoundation/Classes/ZDUtils/WeakProxy/ZDWeakProxy.m; sourceTree = "<group>"; };
 		D483E2FAEA4DE51871741BFF73D02032 /* Pods-ZDUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D57F67B1E04F1E2FBC51EB06BA4DEB71 /* ZDRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZDRefreshFooter.m; path = ZDUIKit/Classes/Refresh/ZDRefreshFooter.m; sourceTree = "<group>"; };
-		D7168FD31104367B952DD5B36071C99A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D7168FD31104367B952DD5B36071C99A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D71DD9DEF40706EBF8F35311B1E525C4 /* ZDTableSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZDTableSection.m; path = ZDFoundation/Classes/ZDUtils/TableViewProxy/ZDTableSection.m; sourceTree = "<group>"; };
 		D760CCFCAAF8038B4F1542E4E171C1E4 /* ZDVerify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZDVerify.h; path = ZDFoundation/Classes/ZDUtils/Verify/ZDVerify.h; sourceTree = "<group>"; };
 		D815725974E236DC7AB9B5D3AECB09CC /* ZDToast+ZDExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ZDToast+ZDExtension.h"; path = "ZDUIKit/Classes/Toast/ZDToast+ZDExtension.h"; sourceTree = "<group>"; };
@@ -939,7 +935,7 @@
 		DAE6FCEA2C11FDC87152278BA92A5524 /* ZDScrollTableVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZDScrollTableVC.m; path = ZDUIKit/Classes/ScrollTable/ZDScrollTableVC.m; sourceTree = "<group>"; };
 		DC1142677CAECF8B93BD134883AB0D5E /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		DC8255EF55FEC60EE38744D65E28500D /* ZDUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZDUIKit-umbrella.h"; sourceTree = "<group>"; };
-		DCFBDCAB0D28234740436BCE5538655F /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJRefresh.framework; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFBDCAB0D28234740436BCE5538655F /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE321F03698DC0149CC69884458C1709 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEACE86AA4293D2C05BE870BD6D7ED08 /* ZDToast+ZDExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ZDToast+ZDExtension.m"; path = "ZDUIKit/Classes/Toast/ZDToast+ZDExtension.m"; sourceTree = "<group>"; };
 		DF92933D67EC3FF9F87BC121897C2E8E /* Pods-ZDUIKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZDUIKit_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -955,7 +951,7 @@
 		E3F139780348C97594D23E2CE7058011 /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
 		E3FE4585ECB87E49B1088D62FFF615A5 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		E4342AC4687E49122277CB50C5EEAA9D /* UIFont+ZDExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+ZDExtend.h"; path = "ZDFoundation/Classes/ZDCategory/UIFont/UIFont+ZDExtend.h"; sourceTree = "<group>"; };
-		E43E0C28337AC69683B29C7E392FC5D2 /* Pods_ZDUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZDUIKit_Example.framework; path = "Pods-ZDUIKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E43E0C28337AC69683B29C7E392FC5D2 /* Pods_ZDUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZDUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6592507C47D1033A9853FF60C7712DC /* RACQueueScheduler+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RACQueueScheduler+Subclass.h"; path = "ReactiveObjC/RACQueueScheduler+Subclass.h"; sourceTree = "<group>"; };
 		E7074D14695DCAA9F4C6F8308FBF6F77 /* RACSubject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACSubject.h; path = ReactiveObjC/RACSubject.h; sourceTree = "<group>"; };
 		E70FA690BE1C324E0A76CE626A3FD02B /* ZDTableViewProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZDTableViewProxy.h; path = ZDFoundation/Classes/ZDUtils/TableViewProxy/ZDTableViewProxy.h; sourceTree = "<group>"; };
@@ -986,7 +982,7 @@
 		F2DF3E33D82E8F38826AE8F118F6703D /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoNormalFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
 		F3100DE324A264BDF2D37BF945C64933 /* RACTargetQueueScheduler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACTargetQueueScheduler.h; path = ReactiveObjC/RACTargetQueueScheduler.h; sourceTree = "<group>"; };
 		F385DE2A8717C62A8547B9873A0F4BE7 /* ZDTableSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZDTableSection.h; path = ZDFoundation/Classes/ZDUtils/TableViewProxy/ZDTableSection.h; sourceTree = "<group>"; };
-		F5CB0F19CB7697037C82CFF2CEDD7502 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CB0F19CB7697037C82CFF2CEDD7502 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5CD1E69BAA6ADCDA9AAFB01583D754E /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoFooter.m; path = MJRefresh/Base/MJRefreshAutoFooter.m; sourceTree = "<group>"; };
 		F6B6309FC4801B7CD69547BD6EC49883 /* RACKVOTrampoline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACKVOTrampoline.m; path = ReactiveObjC/RACKVOTrampoline.m; sourceTree = "<group>"; };
 		F7319B49AE7363E1352F02B76BA24271 /* RACDynamicSequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACDynamicSequence.h; path = ReactiveObjC/RACDynamicSequence.h; sourceTree = "<group>"; };
@@ -1195,7 +1191,6 @@
 				69FEB49232FDDAD511F3A103BBBFBBA8 /* ViewController+MASAdditions.m */,
 				31FE79224218484FE0BE944ADC8F1D77 /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -1455,7 +1450,6 @@
 				187F3A6E89C2C29AD067BDD5EC5F58DE /* UITextView+RACSignalSupport.m */,
 				24D95A75542D386E8C5DFE35857903C7 /* Support Files */,
 			);
-			name = ReactiveObjC;
 			path = ReactiveObjC;
 			sourceTree = "<group>";
 		};
@@ -1572,7 +1566,6 @@
 				DDCCA71DFA49A92CC6CDF86A6496C52C /* Resources */,
 				5F5F2BC349BA67A92A9D268FB4053B33 /* Support Files */,
 			);
-			name = MJRefresh;
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
@@ -1681,7 +1674,6 @@
 				E3FE4585ECB87E49B1088D62FFF615A5 /* MBProgressHUD.m */,
 				88D628C83AADA6375947977719BDA41C /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -1800,7 +1792,6 @@
 				D4284431AE30345D4258D99EACDA4722 /* ZDWeakProxy.m */,
 				56C41B8F8442B29BDA733972FCACFB4F /* Support Files */,
 			);
-			name = ZDFoundation;
 			path = ZDFoundation;
 			sourceTree = "<group>";
 		};
@@ -1817,8 +1808,6 @@
 				FF52293764A25F9D70A59835EA0537BB /* ZDBaseTableViewCell.m */,
 				FD21DF1D7F67B3F0D4483E1BF098AE83 /* ZDBaseTableViewController.h */,
 				762D45D42F22D7A1A724C09EE0E34A7E /* ZDBaseTableViewController.m */,
-				7D23BD82D59B4D2B7ACC2196F67EAB42 /* ZDBaseViewController.h */,
-				B3628130457CF1A2EBCF049BA5C13824 /* ZDBaseViewController.m */,
 				E26B33F049B4A101BAB61E251C70FDDC /* ZDUIAssets.h */,
 				CFE52026F3A137362F51E4EB04EE4ADB /* ZDUIAssets.m */,
 				3E29A2CF320431FA5EF9D0FFF86F088E /* ZDUIMacros.h */,
@@ -2013,7 +2002,6 @@
 				DA1F8DB30D2985B7E54BC6B49F8EF8D5 /* ZDBaseNavigationController.h in Headers */,
 				B37A8996E442B56B7D8B4C66456AE20F /* ZDBaseTableViewCell.h in Headers */,
 				65CDDC5646A27087727D227DC8569344 /* ZDBaseTableViewController.h in Headers */,
-				4A1EDBE3D5145D297160D7B5FD0B8322 /* ZDBaseViewController.h in Headers */,
 				0BF461D9F42EC16E7E234AA7E274ADFB /* ZDGradientButton.h in Headers */,
 				A424C3C08C60A274286530B04A279A78 /* ZDGradientLabel.h in Headers */,
 				06A901B24D9A457E09D1A80490573F6E /* ZDGradientLayer.h in Headers */,
@@ -2335,6 +2323,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -2437,7 +2426,6 @@
 				D877CFF91B0AB9F7AD939B705B63DC7D /* ZDBaseNavigationController.m in Sources */,
 				8C4D6F9CD99DB90CB3628A7F02756205 /* ZDBaseTableViewCell.m in Sources */,
 				27A7C9502C1B491B7CEB0703176C04CA /* ZDBaseTableViewController.m in Sources */,
-				734573C4059D6BB49A3D432C6A8DF7F4 /* ZDBaseViewController.m in Sources */,
 				285104F3ECDBBF33A9015C70868B15C8 /* ZDGradientButton.m in Sources */,
 				EAD337F064642894FC5C47D18841F388 /* ZDGradientLabel.m in Sources */,
 				CDF60E1E02AA114F6290F406FD4CE694 /* ZDGradientLayer.m in Sources */,
@@ -2799,8 +2787,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};

@@ -5,11 +5,10 @@
 //  Created by huhuabin on 2019/6/27.
 //
 
-#import "ZDBaseViewController.h"
 /**
  选择菜单控件
  */
-@interface ZDPopupMenuVC : ZDBaseViewController
+@interface ZDPopupMenuVC : UIViewController
 /// 弹出菜单所有项目标题
 @property (nonatomic, copy, readonly) NSArray *menuTitles;
 /// 当前选中的下标

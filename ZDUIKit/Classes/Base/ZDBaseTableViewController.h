@@ -4,14 +4,13 @@
 //
 //  Created by huhuabin on 2019/6/20.
 //
-#import "ZDBaseViewController.h"
 #import <ZDFoundation/ZDTableViewProxy.h>
 
 
 /**
  TableView 基础控制器
  */
-@interface ZDBaseTableViewController : ZDBaseViewController
+@interface ZDBaseTableViewController : UIViewController
 @property (nonatomic, strong) UITableView *baseTable;
 /// 创建tableView
 - (void)setupBaseTable;

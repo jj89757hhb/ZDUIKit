@@ -5,14 +5,13 @@
 //  Created by huhuabin on 2019/7/6.
 //
 
-#import "ZDBaseViewController.h"
 #import "ZDBannerView.h"
 #import "ZDScrollTopBar.h"
 
 /**
  可滚动的列表视图界面
  */
-@interface ZDScrollTableVC : ZDBaseViewController <ZDTabbarDelegate, ZDBannerViewDelegate>
+@interface ZDScrollTableVC : UIViewController <ZDTabbarDelegate, ZDBannerViewDelegate>
 /// 顶部选项栏
 @property (nonatomic, strong) ZDScrollTopBar *topTabBar;
 /// 分页滚动容器视图
