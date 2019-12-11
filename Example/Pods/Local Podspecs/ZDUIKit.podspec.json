@@ -1,6 +1,6 @@
 {
   "name": "ZDUIKit",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "summary": "A short description of ZDUIKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/jj89757hhb/ZDUIKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/jj89757hhb/ZDUIKit.git",
-    "tag": "0.0.7"
+    "tag": "0.0.8"
   },
   "platforms": {
     "ios": "8.0"

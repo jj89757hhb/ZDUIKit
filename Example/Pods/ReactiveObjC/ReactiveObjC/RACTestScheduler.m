@@ -17,7 +17,7 @@
 // The date at which the action should be executed.
 //
 // This absolute time will not actually be honored. This date is only used for
-// comparison, to determine which block should be run _nezd_.
+// comparison, to determine which block should be run _next_.
 @property (nonatomic, copy, readonly) NSDate *date;
 
 // The scheduled block.

@@ -20,7 +20,6 @@
 #import "ZDBaseNavigationController.h"
 #import "ZDBaseTableViewCell.h"
 #import "ZDBaseTableViewController.h"
-#import "ZDBaseViewController.h"
 #import "ZDUIAssets.h"
 #import "ZDUIMacros.h"
 #import "ZDGradientButton.h"
