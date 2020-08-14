@@ -194,6 +194,74 @@
     }
     return _dataBindingMap;
 }
+
+//***scrollView的相关代理***
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
+    if (self.scrollViewDidScroll) {
+        self.scrollViewDidScroll(scrollView);
+    }
+}
+
+- (void)scrollViewDidZoom:(UIScrollView *)scrollView{
+    if (self.scrollViewDidZoom) {
+        self.scrollViewDidZoom(scrollView);
+    }
+}
+
+- (void)scrollViewDidScrollToTop:(UIScrollView *)scrollView{
+    if (self.scrollViewDidScrollToTop) {
+        self.scrollViewDidScrollToTop(scrollView);
+    }
+}
+- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView{
+    if (self.scrollViewWillBeginDragging) {
+        self.scrollViewWillBeginDragging(scrollView);
+    }
+}
+
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
+    if (self.scrollViewDidEndDecelerating) {
+        self.scrollViewDidEndDecelerating(scrollView);
+    }
+}
+
+- (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView{
+    if (self.scrollViewDidEndScrollingAnimation) {
+        self.scrollViewDidEndScrollingAnimation(scrollView);
+    }
+}
+
+- (void)scrollViewWillBeginDecelerating:(UIScrollView *)scrollView{
+    if (self.scrollViewWillBeginDecelerating) {
+        self.scrollViewWillBeginDecelerating(scrollView);
+    }
+}
+
+- (void)scrollViewWillBeginZooming:(UIScrollView *)scrollView withView:(UIView *)view{
+    if (self.scrollViewWillBeginZooming_withView) {
+        self.scrollViewWillBeginZooming_withView(scrollView, view);
+    }
+}
+
+- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate{
+    if (self.scrollViewDidEndDragging_willDecelerate) {
+        self.scrollViewDidEndDragging_willDecelerate(scrollView, decelerate);
+    }
+}
+
+- (void)scrollViewWillEndDragging:(UIScrollView *)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(inout CGPoint *)targetContentOffset{
+    if (self.scrollViewWillEndDragging_withVelocity_targetContentOffset) {
+        self.scrollViewWillEndDragging_withVelocity_targetContentOffset(scrollView, velocity, targetContentOffset);
+    }
+}
+
+#pragma mark ios11以上才有效
+- (void)scrollViewDidChangeAdjustedContentInset:(UIScrollView *)scrollView{
+    if (self.scrollViewDidChangeAdjustedContentInset) {
+        self.scrollViewDidChangeAdjustedContentInset(scrollView);
+    }
+}
+
 @end
 
 static char kZDProxyKey;

@@ -23,6 +23,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7FA1BF74B6B1F8BC23E2AA60 /* Pods_ZDUIKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549366D2E3106417A1387768 /* Pods_ZDUIKit_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B0B782FE24E68C3100AE5B46 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B782FD24E68C3100AE5B46 /* TestTableViewCell.m */; };
 		CF94B7BB152B853E67FDA05D /* Pods_ZDUIKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AB46164540F3B2C29D7846 /* Pods_ZDUIKit_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,8 @@
 		9036E1BCE5EB01EFA595D07C /* Pods-ZDUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDUIKit_Example.release.xcconfig"; path = "Target Support Files/Pods-ZDUIKit_Example/Pods-ZDUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A027A7C292DBB2A4F9D9617C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A8AB46164540F3B2C29D7846 /* Pods_ZDUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZDUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B782FC24E68C3100AE5B46 /* TestTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		B0B782FD24E68C3100AE5B46 /* TestTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
 		DF828093BE8BAEB39BF1CDDF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FD8627CD8C9FA578A70BF2FE /* Pods-ZDUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDUIKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZDUIKit_Example/Pods-ZDUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,6 +154,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				B0B782FC24E68C3100AE5B46 /* TestTableViewCell.h */,
+				B0B782FD24E68C3100AE5B46 /* TestTableViewCell.m */,
 			);
 			name = "Example for ZDUIKit";
 			path = ZDUIKit;
@@ -375,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* ZDAppDelegate.m in Sources */,
+				B0B782FE24E68C3100AE5B46 /* TestTableViewCell.m in Sources */,
 				6003F5A7195388D20070C39A /* ZDViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
