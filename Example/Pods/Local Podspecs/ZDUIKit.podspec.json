@@ -19,7 +19,7 @@
     "ios": "9.0"
   },
   "source_files": "ZDUIKit/Classes/ZDUIKit.h",
-  "resources": "ZDUIKit/Assets",
+  "resources": "ZDUIKit/Assets/*",
   "subspecs": [
     {
       "name": "Base",
@@ -87,8 +87,7 @@
         "ZDUIKit/SimButton": [
 
         ]
-      },
-      "resources": "ZDUIKit/Assets/Toast.xcassets"
+      }
     },
     {
       "name": "SimButton",
