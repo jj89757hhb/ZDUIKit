@@ -1,6 +1,6 @@
 {
   "name": "ZDUIKit",
-  "version": "0.0.8",
+  "version": "0.1.2",
   "summary": "A short description of ZDUIKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/jj89757hhb/ZDUIKit",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/jj89757hhb/ZDUIKit.git",
-    "tag": "0.0.8"
+    "tag": "0.1.2"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "ZDUIKit/Classes/ZDUIKit.h",
   "resources": "ZDUIKit/Assets",
@@ -87,7 +87,8 @@
         "ZDUIKit/SimButton": [
 
         ]
-      }
+      },
+      "resources": "ZDUIKit/Assets/Toast.xcassets"
     },
     {
       "name": "SimButton",

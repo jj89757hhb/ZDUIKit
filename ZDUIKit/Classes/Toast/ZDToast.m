@@ -155,7 +155,10 @@ static ZDToastErrorHandler globalErrorHandler = nil;
     ZDToastImageView *imageView = [[ZDToastImageView alloc] initWithFrame:CGRectMake(0, 0, 50, 50)];
     NSMutableArray *images = [NSMutableArray array];
     for (NSInteger i = 1; i <= 46; i++) {
-        [images addObject:[ZDUIAssets imageName:[NSString stringWithFormat:@"XTLoading%02ld", i]]];
+        UIImage *image = [ZDUIAssets imageName:[NSString stringWithFormat:@"XTLoading%02ld", i]];
+        if (image) {
+            [images addObject:image];
+        }
     }
     imageView.animationImages = images;
     imageView.contentMode = UIViewContentModeScaleAspectFill;

@@ -4,46 +4,46 @@ PODS:
   - MJRefresh (3.2.3)
   - ReactiveObjC (3.1.1)
   - ZDFoundation (0.0.4)
-  - ZDUIKit (0.0.8):
-    - ZDUIKit/Alert (= 0.0.8)
-    - ZDUIKit/Banner (= 0.0.8)
-    - ZDUIKit/Base (= 0.0.8)
-    - ZDUIKit/GradientView (= 0.0.8)
-    - ZDUIKit/Margin (= 0.0.8)
-    - ZDUIKit/Menu (= 0.0.8)
-    - ZDUIKit/Navigator (= 0.0.8)
-    - ZDUIKit/PromptBtn (= 0.0.8)
-    - ZDUIKit/Refresh (= 0.0.8)
-    - ZDUIKit/ScrollTable (= 0.0.8)
-    - ZDUIKit/SimButton (= 0.0.8)
-    - ZDUIKit/Tabbar (= 0.0.8)
-    - ZDUIKit/Toast (= 0.0.8)
-  - ZDUIKit/Alert (0.0.8)
-  - ZDUIKit/Banner (0.0.8)
-  - ZDUIKit/Base (0.0.8):
+  - ZDUIKit (0.1.2):
+    - ZDUIKit/Alert (= 0.1.2)
+    - ZDUIKit/Banner (= 0.1.2)
+    - ZDUIKit/Base (= 0.1.2)
+    - ZDUIKit/GradientView (= 0.1.2)
+    - ZDUIKit/Margin (= 0.1.2)
+    - ZDUIKit/Menu (= 0.1.2)
+    - ZDUIKit/Navigator (= 0.1.2)
+    - ZDUIKit/PromptBtn (= 0.1.2)
+    - ZDUIKit/Refresh (= 0.1.2)
+    - ZDUIKit/ScrollTable (= 0.1.2)
+    - ZDUIKit/SimButton (= 0.1.2)
+    - ZDUIKit/Tabbar (= 0.1.2)
+    - ZDUIKit/Toast (= 0.1.2)
+  - ZDUIKit/Alert (0.1.2)
+  - ZDUIKit/Banner (0.1.2)
+  - ZDUIKit/Base (0.1.2):
     - Masonry
     - ZDFoundation
-  - ZDUIKit/GradientView (0.0.8)
-  - ZDUIKit/Margin (0.0.8)
-  - ZDUIKit/Menu (0.0.8):
+  - ZDUIKit/GradientView (0.1.2)
+  - ZDUIKit/Margin (0.1.2)
+  - ZDUIKit/Menu (0.1.2):
     - Masonry
     - ZDUIKit/Base
-  - ZDUIKit/Navigator (0.0.8)
-  - ZDUIKit/PromptBtn (0.0.8):
+  - ZDUIKit/Navigator (0.1.2)
+  - ZDUIKit/PromptBtn (0.1.2):
     - ZDUIKit/Base
     - ZDUIKit/Margin
-  - ZDUIKit/Refresh (0.0.8):
+  - ZDUIKit/Refresh (0.1.2):
     - MJRefresh
     - ZDUIKit/Base
-  - ZDUIKit/ScrollTable (0.0.8):
+  - ZDUIKit/ScrollTable (0.1.2):
     - Masonry
     - ZDUIKit/Banner
     - ZDUIKit/Base
     - ZDUIKit/Tabbar
-  - ZDUIKit/SimButton (0.0.8)
-  - ZDUIKit/Tabbar (0.0.8):
+  - ZDUIKit/SimButton (0.1.2)
+  - ZDUIKit/Tabbar (0.1.2):
     - ZDUIKit/Base
-  - ZDUIKit/Toast (0.0.8):
+  - ZDUIKit/Toast (0.1.2):
     - MBProgressHUD
     - ZDUIKit/Base
     - ZDUIKit/SimButton
@@ -72,8 +72,8 @@ SPEC CHECKSUMS:
   MJRefresh: 2b1214a2dc8f4df4c5dcb028ea2ad4e245425fb7
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   ZDFoundation: 085d9d6290ac816b666a066ce516401525c04e71
-  ZDUIKit: 884178ab2c30e601a91d3630d1feb77141b34f47
+  ZDUIKit: a424893f6fc33c0b89ab430a623bf1bd30a96aaa
 
-PODFILE CHECKSUM: cf8b86236d08d93279f0b7a4aba134fa71a413ce
+PODFILE CHECKSUM: 5034d3047c2843a851afd86df5883e7bcd4e3c69
 
-COCOAPODS: 1.8.3
+COCOAPODS: 1.9.1
